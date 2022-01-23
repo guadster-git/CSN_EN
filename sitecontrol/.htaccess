@@ -1,0 +1,10 @@
+RewriteEngine Off
+Options +ExecCGI
+DirectoryIndex index.fcg
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+<IfModule mod_expires.c>
+ExpiresActive Off
+</IfModule>
