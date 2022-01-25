@@ -960,7 +960,7 @@ ul.arrow_list {
     position: absolute;
     right: 0;
     padding-left: 100px;
-    content: url("assets/pictures/arrow_right_blue.png");
+    content: url("/assets/pictures/arrow_right_blue.png");
 }
 
 .button_carousel:hover {
@@ -969,7 +969,7 @@ ul.arrow_list {
 }
 
 .button_carousel:hover:after {
-    content: url("assets/pictures/arrow_right_orange.svg");
+    content: url("/assets/pictures/arrow_right_orange.svg");
 }
 
 .anchor_button {
@@ -1002,7 +1002,7 @@ ul.arrow_list {
 
 .white_button:after {
     padding-left: 15px;
-    content: url("assets/pictures/arrow_right.svg");
+    content: url("/assets/pictures/arrow_right.svg");
 
 
 }
@@ -1013,7 +1013,7 @@ ul.arrow_list {
 }
 
 .white_button:hover:after {
-    content: url("assets/pictures/arrow_right_orange.svg");
+    content: url("/assets/pictures/arrow_right_orange.svg");
 }
 
 .blue_button {
@@ -1024,11 +1024,11 @@ ul.arrow_list {
 
 .blue_button:after {
     padding-left: 15px;
-    content: url("assets/pictures/arrow_right_blue.svg");
+    content: url("/assets/pictures/arrow_right_blue.svg");
 }
 
 .blue_button:hover:after {
-    content: url("assets/pictures/arrow_right.svg");
+    content: url("/assets/pictures/arrow_right.svg");
 }
 
 .blue_button:hover {
@@ -1054,7 +1054,7 @@ ul.arrow_list {
 
 .blue_full_button:after {
     padding-left: 15px;
-    content: url("assets/pictures/arrow_right.svg");
+    content: url("/assets/pictures/arrow_right.svg");
 }
 
 /* Cards */
@@ -1420,14 +1420,14 @@ a:hover {
 }
 
 #first_tile {
-    background-image: url("assets/pictures/online_tile_1.png");
+    background-image: url("/assets/pictures/online_tile_1.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #second_tile {
-    background-image: url("assets/pictures/online_tile_2.png");
+    background-image: url("/assets/pictures/online_tile_2.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1458,7 +1458,7 @@ a:hover {
 .accordion_button:not(.collapsed):after {
     width: 1.25rem;
     height: 1.25rem;
-    content: url("assets/pictures/accordion_collapse.svg");
+    content: url("/assets/pictures/accordion_collapse.svg");
     margin-left: auto;
 }
 
@@ -1466,7 +1466,7 @@ a:hover {
     width: 1.25rem;
     height: 1.25rem;
     margin-left: auto;
-    content: url("assets/pictures/accordion_expand.svg");
+    content: url("/assets/pictures/accordion_expand.svg");
     transition: transform 0.2s ease-in-out;
 }
 
@@ -1640,7 +1640,7 @@ a:hover {
 
 #mobile-search-input::-webkit-search-cancel-button {
     display: none;
-    content: url("assets/pictures/menu_close.svg");
+    content: url("/assets/pictures/menu_close.svg");
 }
 
 .mobile_nav_items {
@@ -2010,20 +2010,20 @@ textarea:focus-visible {
 }
 
 #online_banner {
-    background-image: url("assets/pictures/banner_online.png");
+    background-image: url("/assets/pictures/banner_online.png");
 }
 
 #conferencing_banner_1 {
-    background-image: url("assets/pictures/conference_banner_1.png");
+    background-image: url("/assets/pictures/conference_banner_1.png");
 }
 
 #conferencing_banner_2 {
-    background-image: url("assets/pictures/conference_banner_2.png");
+    background-image: url("/assets/pictures/conference_banner_2.png");
     background-position: left center;
 }
 
 #home_banner {
-    background-image: url("assets/pictures/banner_2.png");
+    background-image: url("/assets/pictures/banner_2.png");
 }
 
 #home_banner_container .banner {
@@ -2032,7 +2032,7 @@ textarea:focus-visible {
 }
 
 #warum_banner .banner_background {
-    background-image: url("assets/pictures/warum_banner.png");
+    background-image: url("/assets/pictures/warum_banner.png");
     background-position: 10% center;
 }
 
