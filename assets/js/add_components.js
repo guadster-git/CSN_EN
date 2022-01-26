@@ -13,7 +13,7 @@ class MyNavbar extends HTMLElement {
         <div class="box">
             <nav class="d-flex py-4" id="navbar">
                 <div class="d-flex ps-0">
-                    <a href="index"><img src="assets/pictures/CSN_Wortbildmarke_RZ.svg" alt=""
+                    <a href="index"><img src="/assets/pictures/CSN_Wortbildmarke_RZ.svg" alt=""
                                               class="banner_height img-fluid"></a>
                 </div>
                 <div class="d-flex justify-content-between text-uppercase " id="dropdown_enabler">
@@ -61,7 +61,7 @@ class MyNavbar extends HTMLElement {
 
                 <!-- Mobile Menu Hamburger -->
                 <div class="align-items-center" id="hamburger">
-                    <button id="hamburger_button"><img src="assets/pictures/hamburger.svg" alt=""></button>
+                    <button id="hamburger_button"><img src="/assets/pictures/hamburger.svg" alt=""></button>
                 </div>
             </nav>
         </div>
@@ -102,7 +102,7 @@ class MyNavbar extends HTMLElement {
                     <div class="input-group search_bar w-25">
                         <input type="text" class="form-control" placeholder="Suche" aria-label="Suche"
                                aria-describedby="basic-addon2" id="search_bar">
-                        <button class="search_button d-flex align-items-center" onclick="search(null)"><img src="assets/pictures/search.svg"
+                        <button class="search_button d-flex align-items-center" onclick="search(null)"><img src="/assets/pictures/search.svg"
                                                                                      alt=""></button>
                     </div>
                 </div>
@@ -198,7 +198,7 @@ class MyFooter extends HTMLElement {
     <div class="box position-relative" id="footer">
         <div class="row py-5 no_gutter_x ">
             <div class="col-auto col-xxl-3  d-flex justify-content-start align-content-center order-0">
-                <img src="assets/pictures/CSN_Wortbildmarke_weiß_RZ.svg" alt="" class="align-self-start banner_height">
+                <img src="/assets/pictures/CSN_Wortbildmarke_weiß_RZ.svg" alt="" class="align-self-start banner_height">
             </div>
             <div class="col-12 col-xxl-6 d-flex footer_text_column align-items-center text-white order-2 order-xxl-1 mt-4 mt-xxl-0">
                 <span class="text-uppercase font_light" style="font-size: 16px;">© ${year} CSN Communication Service Network GmbH</span>
@@ -315,7 +315,7 @@ class MyFooter extends HTMLElement {
                             </a>
                             <a href="" onclick="whatsapp()">
                                  <div class="me-3 mt-3 social_media_row">
-                                    <img src="assets/pictures/whatsapp-32.svg" alt="" class="icon-32">
+                                    <img src="/assets/pictures/whatsapp-32.svg" alt="" class="icon-32">
                                 </div>                            
                             </a>
                                
@@ -336,7 +336,7 @@ class MyFooter extends HTMLElement {
             </div>
         </div>
     </div>
-    <a href="#navbar" class="footer_anchor position-absolute"><img src="assets/pictures/to_top_arrow.svg"
+    <a href="#navbar" class="footer_anchor position-absolute"><img src="/assets/pictures/to_top_arrow.svg"
                                                                    alt=""></a>
 </section>
 `
@@ -357,24 +357,24 @@ class MyPreFooter extends HTMLElement {
         <div class="row justify-content-between align-content-center d-flex text-white pt-5">
             <div class="col-12 col-lg-4 d-flex flex-column pt-3 icon_footer">
                 <div class="height-contact d-flex justify-content-center icon_jump">
-                    <a href="tel:0049221730634-0"><img src="assets/pictures/phone.svg" alt="" class="align-self-center"></a>
+                    <a href="tel:0049221730634-0"><img src="/assets/pictures/phone.svg" alt="" class="align-self-center"></a>
                 </div>
                 <a href="tel:0049221730634-0"><p class="text-center pt-3 footer_heading font_light">+49 (0) 211. 730 634 – 0</p></a>
-                <img src="assets/pictures/line_white.png" alt="" class="align-self-center pt-2">
+                <img src="/assets/pictures/line_white.png" alt="" class="align-self-center pt-2">
             </div>
             <div class="col-12 col-lg-4 d-flex flex-column pt-3 mt-5 mt-lg-0 icon_footer">
                 <div class="height-contact d-flex justify-content-center icon_jump">
-                    <a href="kontakt"><img src="assets/pictures/contact.svg" alt="" class="align-self-center"></a>
+                    <a href="kontakt"><img src="/assets/pictures/contact.svg" alt="" class="align-self-center"></a>
                 </div>
                 <p class="text-center pt-3 footer_heading font_light"><a href="kontakt">Zum Kontaktformular</a></p>
-                <img src="assets/pictures/line_white.png" alt="" class="align-self-center pt-2">
+                <img src="/assets/pictures/line_white.png" alt="" class="align-self-center pt-2">
             </div>
             <div class="col-12 col-lg-4 d-flex flex-column pt-3 mt-5 mt-lg-0 icon_footer">
                 <div class="height-contact d-flex justify-content-center icon_jump">
-                    <a href="mailto:info@csn.de"><img src="assets/pictures/mail.svg" alt="" class="align-self-center"></a>
+                    <a href="mailto:info@csn.de"><img src="/assets/pictures/mail.svg" alt="" class="align-self-center"></a>
                 </div>
                 <p class="text-center pt-3 footer_heading font_light"><a href="mailto:info@csn.de">info@csn.de</a></p>
-                <img src="assets/pictures/line_white.png" alt="" class="align-self-center pt-2">
+                <img src="/assets/pictures/line_white.png" alt="" class="align-self-center pt-2">
             </div>
         </div>
     </div>
@@ -517,7 +517,7 @@ class MyMobileFooter extends HTMLElement {
         </div>
         <div class="box service_menu_footer position-relative">
             <div>
-                <img src="assets/pictures/footer_globe.svg" alt="" class="mobile_footer_globe">
+                <img src="/assets/pictures/footer_globe.svg" alt="" class="mobile_footer_globe">
             </div>
             <div class="footer_service_container">
                 <div>
@@ -540,7 +540,7 @@ class MyMobileFooter extends HTMLElement {
                                 </div> 
                             </a>
                                 <div class="me-3 mt-3 social_media_row" onclick="whatsapp_mobile()">
-                                    <img src="assets/pictures/whatsapp-32.svg" alt="">
+                                    <img src="/assets/pictures/whatsapp-32.svg" alt="">
                                 </div>
                             
                             <a href="#" onclick="twitter()">
@@ -575,7 +575,7 @@ class MyMobileNavbar extends HTMLElement {
 <section id="mobile-menu" class=" section_mobile_menu">
     <nav class="container_mobile_nav d-flex flex-row position-absolute" id="mobile_container">
         <div class="grey_sidebar d-flex justify-content-center align-items-start">
-            <button id="closing_button_white"><img src="assets/pictures/menu_close_white.svg" alt=""
+            <button id="closing_button_white"><img src="/assets/pictures/menu_close_white.svg" alt=""
                                                    class="d-flex d-sm-none close_button_white">
             </button>
         </div>
@@ -599,7 +599,7 @@ class MyMobileNavbar extends HTMLElement {
                         <span class="font_medium text-uppercase mobile_nav_text mt-2">Deutsch</span>
                     </div>
                     <div class="d-none d-sm-flex align-items-center closing_button_mobile">
-                        <button id="closing_button"><img src="assets/pictures/menu_close.svg" alt=""
+                        <button id="closing_button"><img src="/assets/pictures/menu_close.svg" alt=""
                                                          class="align-self-start">
                         </button>
                     </div>
@@ -642,7 +642,7 @@ class MyMobileNavbar extends HTMLElement {
                     </a>
                     <a href="#" onclick="whatsapp_mobile()" class="mt-3">
                         <div class="social_media_icon_container">
-                            <img src="assets/pictures/whatsapp-32.svg" alt="">
+                            <img src="/assets/pictures/whatsapp-32.svg" alt="">
                         </div>
                     </a>
                     <a href="#" onclick="twitter()" class="mt-3">
